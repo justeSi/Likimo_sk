@@ -189,75 +189,75 @@ public class Likimo_skaicius extends JFrame {
 		switch(men) {
 		case 3:
 			if (d>=21) {
-				lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\avinas.png";
+				lbZod="src/avinas.png";
 			}
-			else lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\zuvis.png";
+			else lbZod="src/zuvis.png";
 			break;
 		case 4:
 			if (d<21) {
-				lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\avinas.png";
+				lbZod="src/avinas.png";
 			}
-			else lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\jautis.png";
+			else lbZod="src/jautis.png";
 			break;
 		case 5:
 			if (d>=22) {
-				lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\dvyniai.png";
+				lbZod="src/dvyniai.png";
 			}
-			else lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\jautis.png";
+			else lbZod="src/jautis.png";
 			break;
 		case 6:
 			if (d<=21) {
-				lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\dvyniai.png";
+				lbZod="src/dvyniai.png";
 			}
-			else lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\vezys.png";
+			else lbZod="src/vezys.png";
 			break;
 		case 7:
 			if (d>=23) {
-				lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\liutas.png";
+				lbZod="src/liutas.png";
 			}
-			else lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\vezys.png";
+			else lbZod="src/vezys.png";
 			break;
 		case 8:
 			if (d<22) {
-				lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\liutas.png";
+				lbZod="src/liutas.png";
 			}
-			else lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\mergele.png";
+			else lbZod="src/mergele.png";
 			break;
 		case 9:
 			if (d<=23) {
-				lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\mergele.png";
+				lbZod="src/mergele.png";
 			}
-			else lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\svarstykles.png";
+			else lbZod="src/svarstykles.png";
 			break;
 		case 10:
 			if (d<=23) {
-				lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\svarstykles.png";
+				lbZod="src/svarstykles.png";
 			}
-			else lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\skorpionas.png";
+			else lbZod="src/skorpionas.png";
 			break;
 		case 11:
 			if (d<=22) {
-				lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\skorpionas.png";
+				lbZod="src/skorpionas.png";
 			}
-			else lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\saulys.png";
+			else lbZod="src/saulys.png";
 			break;
 		case 12:
 			if (d<=22) {
-				lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\saulys.png";
+				lbZod="src/saulys.png";
 			}
-			else lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\oziaragis.png";
+			else lbZod="src/oziaragis.png";
 			break;
 		case 1:
 			if (d>=21) {
-				lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\vandenis.png";
+				lbZod="src/vandenis.png";
 			}
-			else lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\oziaragis.png";
+			else lbZod="src/oziaragis.png";
 			break;
 		case 2:
 			if (d<=18) {
-				lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\vandenis.png";
+				lbZod="src/vandenis.png";
 			}
-			else lbZod="C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\zuvis.png";
+			else lbZod="src/zuvis.png";
 			break;
 		}
 		return lbZod;
@@ -266,17 +266,17 @@ public class Likimo_skaicius extends JFrame {
 	
 	public String stichija(String zod) {
 		String stichija = "";
-		if (zod.equals("C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\saulys.png")||
-				zod.equals("C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\avinas.png")||
-				zod.equals("C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\liutas.png")) {
+		if (zod.equals("src/saulys.png")||
+				zod.equals("src/avinas.png")||
+				zod.equals("src/liutas.png")) {
 					stichija = "Valdanti stichija - ugnies";
-		} else if (zod.equals("C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\svarstykles.png")||
-				zod.equals("C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\vandenis.png")||
-				zod.equals("C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\dvyniai.png")) {
+		} else if (zod.equals("src/svarstykles.png")||
+				zod.equals("src/vandenis.png")||
+				zod.equals("src/dvyniai.png")) {
 					stichija = "Valdanti stichija - oro";
-		} else if (zod.equals("C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\vezys.png")||
-				zod.equals("C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\skorpionas.png")||
-				zod.equals("C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\zuvis.png")) {
+		} else if (zod.equals("src/vezys.png")||
+				zod.equals("src/skorpionas.png")||
+				zod.equals("src/zuvis.png")) {
 					stichija = "Valdanti stichija - vandens";
 		} else stichija = "Valdanti stichija - žemės";
 		return stichija;
@@ -285,7 +285,7 @@ public class Likimo_skaicius extends JFrame {
 	 * Create the frame.
 	 */
 	public Likimo_skaicius() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\Screenshot_3.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("src/Screenshot_3.png"));
 		setTitle("Numerologija");
 
 		ArrayList<String> metai = new ArrayList<String>();
@@ -339,7 +339,7 @@ public class Likimo_skaicius extends JFrame {
 		contentPane.add(lbRytuMetai);
 		
 		JLabel lbZod = new JLabel("");
-		lbZod.setIcon(new ImageIcon("C:\\Users\\Juste Si\\Documents\\Objektinis_programavimas\\Likimo_sk\\src\\"));
+		lbZod.setIcon(new ImageIcon("src/"));
 		lbZod.setBounds(75, 364, 225, 179);
 		contentPane.add(lbZod);
 		btnIseiti.setFont(new Font("Open Sans", Font.BOLD | Font.ITALIC, 15));
@@ -468,7 +468,7 @@ public class Likimo_skaicius extends JFrame {
 		contentPane.add(btnSkaiciuoti);
 
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\Juste Si\\Downloads\\pexels-alex-andrews-816608 (2).jpg"));
+		lblNewLabel.setIcon(new ImageIcon("src/pexels-alex-andrews-816608.jpg"));
 		lblNewLabel.setBackground(new Color(224, 255, 255));
 		lblNewLabel.setBounds(0, 0, 1280, 852);
 		contentPane.add(lblNewLabel);
